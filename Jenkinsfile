@@ -28,7 +28,7 @@ pipeline {
             }
         }
 
-        stage('Publish') {
+        stage('Deploy') {
             steps {
                  dir('C:/Users/sqyhwong/Desktop/Jenkins/CarAssembly/publish.bat') {
                     /* execute commands in the scripts directory */
